@@ -32,7 +32,7 @@
 		C1BCE5662A048C7E00F552AD /* NightscoutAPISetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858984F235E027500919FD4 /* NightscoutAPISetupViewController.swift */; };
 		C1BCE5672A048C7E00F552AD /* NightscoutAPIService+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858985D235E074600919FD4 /* NightscoutAPIService+UI.swift */; };
 		C1BCE5682A048C7E00F552AD /* NightscoutAPISettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38589851235E035D00919FD4 /* NightscoutAPISettingsViewController.swift */; };
-		C1CEBFF729BCC2C8007FD8A3 /* NightscoutKit in Frameworks */ = {isa = PBXBuildFile; productRef = C1CEBFF629BCC2C8007FD8A3 /* NightscoutKit */; };
+		CD8E7E5F2D76E51900F8145D /* NightscoutKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD8E7E5E2D76E51900F8145D /* NightscoutKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1CEBFF729BCC2C8007FD8A3 /* NightscoutKit in Frameworks */,
+				CD8E7E5F2D76E51900F8145D /* NightscoutKit in Frameworks */,
 				38FEB836236082B900F1E810 /* HealthKit.framework in Frameworks */,
 				38F613B7234F333C003FB95D /* LoopKit.framework in Frameworks */,
 			);
@@ -278,7 +278,7 @@
 			);
 			name = NightscoutRemoteCGM;
 			packageProductDependencies = (
-				C1CEBFF629BCC2C8007FD8A3 /* NightscoutKit */,
+				CD8E7E5E2D76E51900F8145D /* NightscoutKit */,
 			);
 			productName = NightscoutAPIClient;
 			productReference = 38F61399234F3066003FB95D /* NightscoutRemoteCGM.framework */;
@@ -358,7 +358,7 @@
 			);
 			mainGroup = 38F6138F234F3066003FB95D;
 			packageReferences = (
-				C1CEBFF529BCC2C8007FD8A3 /* XCRemoteSwiftPackageReference "NightscoutKit" */,
+				CD8E7E5D2D76E43700F8145D /* XCRemoteSwiftPackageReference "NightscoutKit" */,
 			);
 			productRefGroup = 38F6139A234F3066003FB95D /* Products */;
 			projectDirPath = "";
@@ -756,20 +756,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C1CEBFF529BCC2C8007FD8A3 /* XCRemoteSwiftPackageReference "NightscoutKit" */ = {
+		CD8E7E5D2D76E43700F8145D /* XCRemoteSwiftPackageReference "NightscoutKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/LoopKit/NightscoutKit";
+			repositoryURL = "https://github.com/motinis/NightscoutKit/";
 			requirement = {
-				branch = main;
+				branch = abc;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C1CEBFF629BCC2C8007FD8A3 /* NightscoutKit */ = {
+		CD8E7E5E2D76E51900F8145D /* NightscoutKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C1CEBFF529BCC2C8007FD8A3 /* XCRemoteSwiftPackageReference "NightscoutKit" */;
+			package = CD8E7E5D2D76E43700F8145D /* XCRemoteSwiftPackageReference "NightscoutKit" */;
 			productName = NightscoutKit;
 		};
 /* End XCSwiftPackageProductDependency section */
